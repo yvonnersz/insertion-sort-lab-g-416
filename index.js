@@ -2,7 +2,7 @@
 
 function findMinAndRemove(array){
   let lowestNumberArray = [];
-  return lowestNumberArray.push(Math.min(array));
+  return lowestNumberArray.push(Math.min(...array));
 }
 
 function insertionSort(array){
