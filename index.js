@@ -2,6 +2,7 @@
 
 function findMinAndRemove(array){
   let newArray = new Array(Math.min(array));
+  binding.pry
   return newArray
 }
 
